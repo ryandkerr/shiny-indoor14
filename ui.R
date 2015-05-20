@@ -12,7 +12,9 @@ shinyUI(fluidPage(
                   min = 0, max = 40, value = c(0, 40))
     ),
     
-    mainPanel("main panel")
+    mainPanel(
+      plotOutput("scatter")
+    )
     
   )
 ))

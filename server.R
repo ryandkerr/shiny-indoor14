@@ -3,15 +3,23 @@ library(ggplot2)
 
 indoor <- read.csv("data/indoor14.csv")
 
-ast_min <- 5
-ast_max <- 50
+# ast_min <- 5
+# ast_max <- 50
 
-selection <- indoor[indoor$Assists > ast_min & indoor$Assists < ast_max,]
+# selection <- indoor[indoor$Assists > ast_min & indoor$Assists < ast_max,]
 
-ast_v_goal <- ggplot(data=selection, aes(x=Assists, y=Goals)) + geom_text(label=selection$Player, size=3, angle=-15)
-ast_v_goal
+# ast_v_goal <- ggplot(data=selection, aes(x=Assists, y=Goals)) + geom_text(label=selection$Player, size=3, angle=-15)
+# ast_v_goal
 
 
 shinyServer(function(input, output) {
-  
+  output$scatter <- renderPlot({
+    ast_min <- input$ast_range[1]
+    ast_max <- input$ast_range[2]
+    
+    selection <- indoor[indoor$Assists > ast_min & indoor$Assists < ast_max,]
+    
+    ast_v_goal <- ggplot(data=selection, aes(x=Assists, y=Goals)) + geom_text(label=selection$Player, size=3, angle=-15)
+    ast_v_goal
+  })
 })
