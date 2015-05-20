@@ -19,7 +19,7 @@ shinyServer(function(input, output) {
                         indoor$Goals <= goal_max,]
     
     # creating ggplot scatterplot
-    ast_v_goal <- ggplot(data=selection, aes(x=Assists, y=Goals)) + geom_text(label=selection$Player, size=3, angle=-15)
+    ast_v_goal <- ggplot(data=selection, aes(x=Assists, y=Goals)) + geom_text(label=selection$Player, size=3, angle=-20)
     ast_v_goal
   })
 })
