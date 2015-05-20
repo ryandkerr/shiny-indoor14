@@ -5,7 +5,7 @@ shinyUI(fluidPage(
   
   sidebarLayout(
     sidebarPanel(
-      sliderInput("ast_range", h4("Assists:", align = "center"),
+      sliderInput("ast_range", "Assists:",
                   min = 0, max = 40, value = c(0, 40)),
       
       sliderInput("goal_range", "Goals:",
