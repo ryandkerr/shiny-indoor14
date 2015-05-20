@@ -1,2 +1,2 @@
-# shiny-indoor14
-Repository containing code for R shiny app for 2014 Harvard Red Line indoor frisbee league. To be hosted on shinyapps.io.
+# Harvard Indoor Frisbee League with R Shiny
+Visit  https://ryandkerr.shinyapps.io/shiny-indoor14 to explore the data from Harvard Red Line's 2014 indoor ultimate frisbee league. 
