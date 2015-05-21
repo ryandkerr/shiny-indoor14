@@ -1,6 +1,9 @@
 library(shiny)
 library(ggplot2)
 indoor <- read.csv("data/indoor14.csv")
+indoor$Assists_per_Game <- indoor$Assists / indoor$Games
+indoor$Goals_per_Game <- indoor$Goals / indoor$Games
+indoor <- replace(indoor, is.na(indoor), 0)
 
 shinyServer(function(input, output) {
   
@@ -24,10 +27,16 @@ shinyServer(function(input, output) {
                         indoor$Goals <= goal_max &
                         indoor$Games >= games_min &
                         indoor$Games <= games_max,]
-    
+        
     # creating ggplot scatterplot
-    ast_v_goal <- ggplot(data=selection, aes(x=Assists, y=Goals)) + 
-      geom_text(label=selection$Player, size=3, angle=-20)
-    ast_v_goal
+    if(input$radio[1] == "totals") {
+      ast_v_goal <- ggplot(data=selection, aes(x=Assists, y=Goals)) + 
+        geom_text(label=selection$Player, size=3, angle=-20)
+      ast_v_goal
+    } else {
+      ast_v_goal <- ggplot(data=selection, aes(x=Assists_per_Game, y=Goals_per_Game)) + 
+        geom_text(label=selection$Player, size=3, angle=-20)
+      ast_v_goal
+    }
   })
 })

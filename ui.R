@@ -7,6 +7,10 @@ shinyUI(fluidPage(
     sidebarPanel(
       helpText("Data from the 2014 Harvard indoor ultimate frisbee league."),
       
+      radioButtons("radio", label = "Data Format",
+                   choices = list("Totals" = "totals", "Per Game" = "per"),
+                   selected = "totals"),
+      
       sliderInput("ast_range", "Assists:",
                   min = 0, max = 40, value = c(0, 40)),
       
