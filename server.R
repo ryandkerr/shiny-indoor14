@@ -20,6 +20,8 @@ shinyServer(function(input, output) {
     games_min <- input$game_range[1]
     games_max <- input$game_range[2]
     
+    print(input$team[1])
+    
     # filtered data
     selection <- indoor[indoor$Assists >= ast_min &
                         indoor$Assists <= ast_max &
@@ -27,6 +29,10 @@ shinyServer(function(input, output) {
                         indoor$Goals <= goal_max &
                         indoor$Games >= games_min &
                         indoor$Games <= games_max,]
+    
+    if(input$team[1] != "All Players") {
+      selection <- selection[selection$Team == input$team[1],]
+    }
         
     # creating ggplot scatterplot
     if(input$radio[1] == "totals") {

@@ -18,7 +18,12 @@ shinyUI(fluidPage(
                   min = 0, max = 40, value = c(0, 40)),
       
       sliderInput("game_range", "Games Played:",
-                  min = 0, max = 8, value = c(0, 8))
+                  min = 0, max = 8, value = c(0, 8)),
+      
+      selectInput("team", label = "Team:",
+                  choices = list("All Players", "Josh Fries Memorial", "No Flex Zone", "Swai Guys",
+                                 "Rooftop Swai Farm", "Brawl or Nothing", "The Buns", "Lev Towers", "MotherHuckers"),
+                  selected = "All Players")
     ),
     
     mainPanel(
