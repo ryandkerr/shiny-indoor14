@@ -1,17 +1,17 @@
 Player,Team,Games,Goals,Assists,Ds,Turns,Drops,Point_Blocks,Team_Goals,BCS,BCS_Rank
-Jonah,2nd Anual Joshua Thomas Fries Memorial Indoor League Team,6,15,16,7,12,2,0,92,48.95780051,12
-Mark,2nd Anual Joshua Thomas Fries Memorial Indoor League Team,7,20,36,14,15,1,2,92,121.1980676,1
-Sam Dinnings,2nd Anual Joshua Thomas Fries Memorial Indoor League Team,6,18,20,10,17,4,0,92,58.20735786,9
-Carson Cook,2nd Anual Joshua Thomas Fries Memorial Indoor League Team,4,13,4,7,6,3,0,92,29.30936455,25
-Brian Zid,2nd Anual Joshua Thomas Fries Memorial Indoor League Team,5,8,12,4,5,1,1,92,39.67391304,16
-Chris Lee,2nd Anual Joshua Thomas Fries Memorial Indoor League Team,3,2,0,1,1,0,0,92,4.217391304,73
-Jackson Whang,2nd Anual Joshua Thomas Fries Memorial Indoor League Team,6,10,0,4,5,1,0,92,17.33695652,47
-Jack Goldfisher,2nd Anual Joshua Thomas Fries Memorial Indoor League Team,2,1,1,2,1,3,0,92,2.967391304,75
-Jason Joffe,2nd Anual Joshua Thomas Fries Memorial Indoor League Team,3,2,0,0,0,1,0,92,2.884057971,76
-Stefan Rajkovic,2nd Anual Joshua Thomas Fries Memorial Indoor League Team,2,0,0,2,0,2,0,92,0,85
-kunal,2nd Anual Joshua Thomas Fries Memorial Indoor League Team,6,3,1,0,1,2,0,92,5.101449275,72
-Alan Montelongo,2nd Anual Joshua Thomas Fries Memorial Indoor League Team,0,0,0,0,0,0,0,92,0,85
-Shai,2nd Anual Joshua Thomas Fries Memorial Indoor League Team,1,0,0,1,0,0,0,92,0,85
+Jonah,Josh Fries Memorial,6,15,16,7,12,2,0,92,48.95780051,12
+Mark,Josh Fries Memorial,7,20,36,14,15,1,2,92,121.1980676,1
+Sam Dinnings,Josh Fries Memorial,6,18,20,10,17,4,0,92,58.20735786,9
+Carson Cook,Josh Fries Memorial,4,13,4,7,6,3,0,92,29.30936455,25
+Brian Zid,Josh Fries Memorial,5,8,12,4,5,1,1,92,39.67391304,16
+Chris Lee,Josh Fries Memorial,3,2,0,1,1,0,0,92,4.217391304,73
+Jackson Whang,Josh Fries Memorial,6,10,0,4,5,1,0,92,17.33695652,47
+Jack Goldfisher,Josh Fries Memorial,2,1,1,2,1,3,0,92,2.967391304,75
+Jason Joffe,Josh Fries Memorial,3,2,0,0,0,1,0,92,2.884057971,76
+Stefan Rajkovic,Josh Fries Memorial,2,0,0,2,0,2,0,92,0,85
+kunal,Josh Fries Memorial,6,3,1,0,1,2,0,92,5.101449275,72
+Alan Montelongo,Josh Fries Memorial,0,0,0,0,0,0,0,92,0,85
+Shai,Josh Fries Memorial,1,0,0,1,0,0,0,92,0,85
 Nick,No Flex Zone,5,2,4,1,11,2,1,59,8.516949153,65
 William Dean,No Flex Zone,5,14,13,7,11,0,3,59,63.07627119,7
 Misha,No Flex Zone,1,1,0,0,2,1,0,59,1.369491525,84
@@ -25,20 +25,20 @@ Joe Hostyk,No Flex Zone,5,11,1,2,2,2,0,59,19.17675545,43
 Ajay nathan,No Flex Zone,2,0,0,0,0,2,1,59,0,85
 Evan Spretcher,No Flex Zone,0,0,0,0,0,0,0,59,0,85
 Nick Phillips,No Flex Zone,0,0,0,0,0,0,0,59,0,85
-Zack,"Swai Gys, burgers and Swais",7,4,4,6,6,1,0,100,15.02222222,55
-Piers,"Swai Gys, burgers and Swais",6,15,35,5,13,3,2,100,80,4
-Aron,"Swai Gys, burgers and Swais",1,1,4,0,3,1,0,100,6.333333333,69
-Honald,"Swai Gys, burgers and Swais",7,11,14,8,11,0,0,100,46.25,14
-Mike MacKenzie,"Swai Gys, burgers and Swais",8,9,27,7,18,3,1,100,54,11
-Joey McMullen,"Swai Gys, burgers and Swais",7,23,5,6,5,0,0,100,63.46666667,6
-John Rahill,"Swai Gys, burgers and Swais",8,18,4,5,5,4,0,100,33.62857143,21
-Alexander Lin,"Swai Gys, burgers and Swais",3,6,1,0,2,0,0,100,10.03333333,62
-Ken Weinstein,"Swai Gys, burgers and Swais",0,0,0,0,0,0,0,100,0,85
-Caleb Irvine,"Swai Gys, burgers and Swais",5,10,4,1,4,1,0,100,19.4,41
-Sebastian Wagner-Serena,"Swai Gys, burgers and Swais",1,0,0,1,0,0,0,100,0,85
-Wes Mann,"Swai Gys, burgers and Swais",1,1,1,2,8,0,0,100,2.866666667,77
-Alex Kahng,"Swai Gys, burgers and Swais",1,2,1,0,3,0,0,100,4.05,74
-Jmac,"Swai Gys, burgers and Swais",0,0,0,0,0,0,0,100,0,85
+Zack,Swai Guys,7,4,4,6,6,1,0,100,15.02222222,55
+Piers,Swai Guys,6,15,35,5,13,3,2,100,80,4
+Aron,Swai Guys,1,1,4,0,3,1,0,100,6.333333333,69
+Honald,Swai Guys,7,11,14,8,11,0,0,100,46.25,14
+Mike MacKenzie,Swai Guys,8,9,27,7,18,3,1,100,54,11
+Joey McMullen,Swai Guys,7,23,5,6,5,0,0,100,63.46666667,6
+John Rahill,Swai Guys,8,18,4,5,5,4,0,100,33.62857143,21
+Alexander Lin,Swai Guys,3,6,1,0,2,0,0,100,10.03333333,62
+Ken Weinstein,Swai Guys,0,0,0,0,0,0,0,100,0,85
+Caleb Irvine,Swai Guys,5,10,4,1,4,1,0,100,19.4,41
+Sebastian Wagner-Serena,Swai Guys,1,0,0,1,0,0,0,100,0,85
+Wes Mann,Swai Guys,1,1,1,2,8,0,0,100,2.866666667,77
+Alex Kahng,Swai Guys,1,2,1,0,3,0,0,100,4.05,74
+Jmac,Swai Guys,0,0,0,0,0,0,0,100,0,85
 Barton,Rooftop Swai Farm,0,0,0,0,0,0,0,100,0,85
 Chip,Rooftop Swai Farm,7,16,15,4,16,0,0,100,43.21764706,15
 Gabriel Karger,Rooftop Swai Farm,8,19,3,1,13,5,0,100,26.03333333,31

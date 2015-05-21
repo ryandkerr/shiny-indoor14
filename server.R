@@ -19,9 +19,7 @@ shinyServer(function(input, output) {
     # min and max games played from slider
     games_min <- input$game_range[1]
     games_max <- input$game_range[2]
-    
-    print(input$team[1])
-    
+        
     # filtered data
     selection <- indoor[indoor$Assists >= ast_min &
                         indoor$Assists <= ast_max &
