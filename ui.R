@@ -27,7 +27,7 @@ shinyUI(fluidPage(
     ),
     
     mainPanel(
-      plotOutput("scatter")
+      ggvisOutput("scatter")
     )
     
   )
