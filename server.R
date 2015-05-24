@@ -8,6 +8,7 @@ indoor <- replace(indoor, is.na(indoor), 0)
 
 shinyServer(function(input, output) {
 
+  # modify data
   selection <- reactive({
     # min and max assists from slider
     ast_min <- input$ast_range[1]
@@ -29,6 +30,7 @@ shinyServer(function(input, output) {
                         indoor$Games >= games_min &
                         indoor$Games <= games_max,]
     
+    # filter by team
     if(input$team[1] != "All Players") {
       s <- s[s$Team == input$team[1],]
     }
@@ -36,21 +38,24 @@ shinyServer(function(input, output) {
     s
   })
         
-    # creating ggvis scatterplot
-    # if(input$radio[1] == "totals") {
-      scatter <- reactive({
-        selection %>%
-          ggvis(~Assists, ~Goals, text:= ~Player) %>%
-          layer_text(angle := 20)
-      })
-      scatter %>% bind_shiny("scatter")
+  # creating ggvis scatterplot
+  scatter <- reactive({
+    # scatterplot of total points/ast
+    if(input$radio[1] == "totals") {
+      selection %>%
+        ggvis(~Assists, ~Goals, text:= ~Player) %>%
+        layer_text(angle := 20)
+    
+    # scatterplot of per game stats
+    } else {
+      selection %>%
+        ggvis(~Assists_per_Game, ~Goals_per_Game, text := ~Player) %>%
+        layer_text(angle := 20) %>%
+        add_axis("x", title = "Assists/Game") %>%
+        add_axis("y", title = "Goals/Game")
+    }
+  })
       
-      # ast_v_goal <- ggplot(data=selection, aes(x=Assists, y=Goals)) + 
-        # geom_text(label=selection$Player, size=3, angle=-20)
-      # ast_v_goal
-    #} else {
-    #  ast_v_goal <- ggplot(data=selection, aes(x=Assists_per_Game, y=Goals_per_Game)) + 
-    #    geom_text(label=selection$Player, size=3, angle=-20)
-    #  ast_v_goal
-    #}
+  scatter %>% bind_shiny("scatter")
+    
 })
