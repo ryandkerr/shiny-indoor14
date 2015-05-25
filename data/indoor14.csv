@@ -1,7 +1,7 @@
 ID,Player,Team,Games,Goals,Assists,Ds,Turns,Drops,Point_Blocks,Team_Goals,BCS,BCS_Rank
 1,Jonah,Josh Fries Memorial,6,15,16,7,12,2,0,92,48.95780051,12
 2,Mark,Josh Fries Memorial,7,20,36,14,15,1,2,92,121.1980676,1
-3,Sam Dinnings,Josh Fries Memorial,6,18,20,10,17,4,0,92,58.20735786,9
+3,Chauncey,Josh Fries Memorial,6,18,20,10,17,4,0,92,58.20735786,9
 4,Carson Cook,Josh Fries Memorial,4,13,4,7,6,3,0,92,29.30936455,25
 5,Brian Zid,Josh Fries Memorial,5,8,12,4,5,1,1,92,39.67391304,16
 6,Chris Lee,Josh Fries Memorial,3,2,0,1,1,0,0,92,4.217391304,73
@@ -9,7 +9,7 @@ ID,Player,Team,Games,Goals,Assists,Ds,Turns,Drops,Point_Blocks,Team_Goals,BCS,BC
 8,Jack Goldfisher,Josh Fries Memorial,2,1,1,2,1,3,0,92,2.967391304,75
 9,Jason Joffe,Josh Fries Memorial,3,2,0,0,0,1,0,92,2.884057971,76
 10,Stefan Rajkovic,Josh Fries Memorial,2,0,0,2,0,2,0,92,0,85
-11,kunal,Josh Fries Memorial,6,3,1,0,1,2,0,92,5.101449275,72
+11,Kunal,Josh Fries Memorial,6,3,1,0,1,2,0,92,5.101449275,72
 12,Alan Montelongo,Josh Fries Memorial,0,0,0,0,0,0,0,92,0,85
 13,Shai,Josh Fries Memorial,1,0,0,1,0,0,0,92,0,85
 14,Nick,No Flex Zone,5,2,4,1,11,2,1,59,8.516949153,65
@@ -39,7 +39,7 @@ ID,Player,Team,Games,Goals,Assists,Ds,Turns,Drops,Point_Blocks,Team_Goals,BCS,BC
 38,Wes Mann,Swai Guys,1,1,1,2,8,0,0,100,2.866666667,77
 39,Alex Kahng,Swai Guys,1,2,1,0,3,0,0,100,4.05,74
 40,Jmac,Swai Guys,0,0,0,0,0,0,0,100,0,85
-41,Barton,Rooftop Swai Farm,0,0,0,0,0,0,0,100,0,85
+41,Jake Barton,Rooftop Swai Farm,0,0,0,0,0,0,0,100,0,85
 42,Chip,Rooftop Swai Farm,7,16,15,4,16,0,0,100,43.21764706,15
 43,Gabriel Karger,Rooftop Swai Farm,8,19,3,1,13,5,0,100,26.03333333,31
 44,Michael Casson,Rooftop Swai Farm,5,8,5,5,0,4,0,100,22.96666667,34

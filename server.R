@@ -2,8 +2,8 @@ library(shiny)
 library(BH)
 library(ggvis)
 indoor <- read.csv("data/indoor14.csv")
-indoor$Assists_per_Game <- indoor$Assists / indoor$Games
-indoor$Goals_per_Game <- indoor$Goals / indoor$Games
+indoor$Assists_per_Game <- round(indoor$Assists / indoor$Games, digits = 1)
+indoor$Goals_per_Game <- round(indoor$Goals/indoor$Games, digits = 1)
 indoor <- replace(indoor, is.na(indoor), 0)
 
 shinyServer(function(input, output) {
@@ -44,8 +44,17 @@ shinyServer(function(input, output) {
     
     players <- isolate(selection())
     selected_player <- players[players$ID == x$ID,]
-    paste0("<b>", selected_player$Player, "</b><br>",
-           "<b>Team: </b>", selected_player$Team, "<br>")
+    if(input$radio[1] == "totals") {  
+      paste0("<b>", selected_player$Player, "</b><br>",
+             "<b>Team: </b>", selected_player$Team, "<br>",
+             "<b>Ast/Gm: </b>", selected_player$Assists_per_Game, "<br>",
+             "<b>Gol/Gm: </b>", selected_player$Goals_per_Game)
+    } else {
+      paste0("<b>", selected_player$Player, "</b><br>",
+             "<b>Team: </b>", selected_player$Team, "<br>",
+             "<b>Assists: </b>", selected_player$Assists, "<br>",
+             "<b>Goals: </b>", selected_player$Goals)
+    }
   }
   
   # creating ggvis scatterplot
@@ -60,10 +69,11 @@ shinyServer(function(input, output) {
     # scatterplot of per game stats
     } else {
       selection %>%
-        ggvis(~Assists_per_Game, ~Goals_per_Game, text := ~Player) %>%
+        ggvis(~Assists_per_Game, ~Goals_per_Game, key := ~ID, text := ~Player) %>%
         layer_text(angle := 20) %>%
         add_axis("x", title = "Assists/Game") %>%
-        add_axis("y", title = "Goals/Game")
+        add_axis("y", title = "Goals/Game") %>%
+        add_tooltip(player_tooltip, "hover")
     }
   })
       
