@@ -1,5 +1,5 @@
 library(shiny)
-library(ggplot2)
+library(BH)
 library(ggvis)
 indoor <- read.csv("data/indoor14.csv")
 indoor$Assists_per_Game <- indoor$Assists / indoor$Games
@@ -38,13 +38,20 @@ shinyServer(function(input, output) {
     s
   })
         
+  player_tooltip <- function(x) {
+    #player <- selection[selection$Player == x$Player,]
+    #print(player)
+    paste0(x$Player)
+  }
+  
   # creating ggvis scatterplot
   scatter <- reactive({
     # scatterplot of total points/ast
     if(input$radio[1] == "totals") {
       selection %>%
-        ggvis(~Assists, ~Goals, text:= ~Player) %>%
-        layer_text(angle := 20)
+        ggvis(~Assists, ~Goals, key := ~Player, text:= ~Player) %>%
+        layer_text(angle := 20) %>%
+        add_tooltip(player_tooltip, "hover")
     
     # scatterplot of per game stats
     } else {
