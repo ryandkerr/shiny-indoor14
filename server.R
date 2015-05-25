@@ -22,7 +22,7 @@ shinyServer(function(input, output) {
     games_min <- input$game_range[1]
     games_max <- input$game_range[2]
         
-    # filtered data
+    # filtering data
     s <- indoor[indoor$Assists >= ast_min &
                         indoor$Assists <= ast_max &
                         indoor$Goals >= goal_min &
@@ -38,6 +38,7 @@ shinyServer(function(input, output) {
     s
   })
         
+  # tooltip function
   player_tooltip <- function(x) {
     if(is.null(x)) return(NULL)
     if(is.null(x$ID)) return(NULL)    
