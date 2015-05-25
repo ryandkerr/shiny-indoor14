@@ -1,108 +1,108 @@
-Player,Team,Games,Goals,Assists,Ds,Turns,Drops,Point_Blocks,Team_Goals,BCS,BCS_Rank
-Jonah,Josh Fries Memorial,6,15,16,7,12,2,0,92,48.95780051,12
-Mark,Josh Fries Memorial,7,20,36,14,15,1,2,92,121.1980676,1
-Sam Dinnings,Josh Fries Memorial,6,18,20,10,17,4,0,92,58.20735786,9
-Carson Cook,Josh Fries Memorial,4,13,4,7,6,3,0,92,29.30936455,25
-Brian Zid,Josh Fries Memorial,5,8,12,4,5,1,1,92,39.67391304,16
-Chris Lee,Josh Fries Memorial,3,2,0,1,1,0,0,92,4.217391304,73
-Jackson Whang,Josh Fries Memorial,6,10,0,4,5,1,0,92,17.33695652,47
-Jack Goldfisher,Josh Fries Memorial,2,1,1,2,1,3,0,92,2.967391304,75
-Jason Joffe,Josh Fries Memorial,3,2,0,0,0,1,0,92,2.884057971,76
-Stefan Rajkovic,Josh Fries Memorial,2,0,0,2,0,2,0,92,0,85
-kunal,Josh Fries Memorial,6,3,1,0,1,2,0,92,5.101449275,72
-Alan Montelongo,Josh Fries Memorial,0,0,0,0,0,0,0,92,0,85
-Shai,Josh Fries Memorial,1,0,0,1,0,0,0,92,0,85
-Nick,No Flex Zone,5,2,4,1,11,2,1,59,8.516949153,65
-William Dean,No Flex Zone,5,14,13,7,11,0,3,59,63.07627119,7
-Misha,No Flex Zone,1,1,0,0,2,1,0,59,1.369491525,84
-Adam Gilfix,No Flex Zone,4,7,4,2,6,2,0,59,15.86440678,53
-Ben Banavige,No Flex Zone,4,8,5,2,9,6,1,59,18.15793529,46
-Sujay Tyle,No Flex Zone,1,0,1,0,2,0,0,59,1.502824859,81
-Charlie Wolock,No Flex Zone,6,8,15,3,10,0,1,59,39.44375963,18
-Ben Scharfstein,No Flex Zone,3,1,12,5,11,2,0,59,20.07838983,39
-Adam Ehrenberg,No Flex Zone,5,7,4,3,7,2,0,59,16.53107345,51
-Joe Hostyk,No Flex Zone,5,11,1,2,2,2,0,59,19.17675545,43
-Ajay nathan,No Flex Zone,2,0,0,0,0,2,1,59,0,85
-Evan Spretcher,No Flex Zone,0,0,0,0,0,0,0,59,0,85
-Nick Phillips,No Flex Zone,0,0,0,0,0,0,0,59,0,85
-Zack,Swai Guys,7,4,4,6,6,1,0,100,15.02222222,55
-Piers,Swai Guys,6,15,35,5,13,3,2,100,80,4
-Aron,Swai Guys,1,1,4,0,3,1,0,100,6.333333333,69
-Honald,Swai Guys,7,11,14,8,11,0,0,100,46.25,14
-Mike MacKenzie,Swai Guys,8,9,27,7,18,3,1,100,54,11
-Joey McMullen,Swai Guys,7,23,5,6,5,0,0,100,63.46666667,6
-John Rahill,Swai Guys,8,18,4,5,5,4,0,100,33.62857143,21
-Alexander Lin,Swai Guys,3,6,1,0,2,0,0,100,10.03333333,62
-Ken Weinstein,Swai Guys,0,0,0,0,0,0,0,100,0,85
-Caleb Irvine,Swai Guys,5,10,4,1,4,1,0,100,19.4,41
-Sebastian Wagner-Serena,Swai Guys,1,0,0,1,0,0,0,100,0,85
-Wes Mann,Swai Guys,1,1,1,2,8,0,0,100,2.866666667,77
-Alex Kahng,Swai Guys,1,2,1,0,3,0,0,100,4.05,74
-Jmac,Swai Guys,0,0,0,0,0,0,0,100,0,85
-Barton,Rooftop Swai Farm,0,0,0,0,0,0,0,100,0,85
-Chip,Rooftop Swai Farm,7,16,15,4,16,0,0,100,43.21764706,15
-Gabriel Karger,Rooftop Swai Farm,8,19,3,1,13,5,0,100,26.03333333,31
-Michael Casson,Rooftop Swai Farm,5,8,5,5,0,4,0,100,22.96666667,34
-Peter Chang,Rooftop Swai Farm,8,10,7,6,6,1,0,100,31.92222222,23
-Will Deuschle,Rooftop Swai Farm,5,9,5,3,7,1,0,100,21,37
-The GITT Net,Rooftop Swai Farm,0,0,0,2,0,0,0,100,0,85
-George Stubbs,Rooftop Swai Farm,3,5,14,3,6,0,0,100,31.75714286,24
-Max Hopkin,Rooftop Swai Farm,1,0,0,1,1,0,0,100,0,85
-Matt Thiman,Rooftop Swai Farm,8,14,21,5,20,6,1,100,46.98484848,13
-Toby Berkman,Rooftop Swai Farm,2,2,0,0,2,1,0,100,2.6,78
-Lord Nut,Rooftop Swai Farm,1,1,0,0,0,0,0,100,2.1,79
-John Stubbs,Rooftop Swai Farm,7,16,29,15,15,3,0,100,82.22727273,3
-Brawl,Brawl or Nothing,7,13,13,6,14,2,0,91,38.43609023,19
-Wynn,Brawl or Nothing,5,27,13,11,4,2,0,91,97.72893773,2
-Franks,Brawl or Nothing,6,12,17,11,7,3,1,91,61.18681319,8
-Chris Behrer,Brawl or Nothing,2,1,6,4,8,0,0,91,11.65811966,59
-Adrian,Brawl or Nothing,2,5,3,3,0,0,1,91,56.87912088,10
-Nixon,Brawl or Nothing,0,0,0,0,0,0,0,91,0,85
-Michael Wong,Brawl or Nothing,6,5,4,7,8,1,0,91,16.53446553,50
-Jake Newman,Brawl or Nothing,5,3,15,1,9,0,0,91,23.57802198,33
-Patrick Behrer,Brawl or Nothing,6,2,6,6,6,0,0,91,16.87912088,49
-Milan,Brawl or Nothing,6,12,7,6,8,3,3,91,37.55457875,20
-Nicholas Watters,Brawl or Nothing,4,11,6,3,7,1,0,91,25.66813187,32
-Brett Silverman,Brawl or Nothing,0,0,0,0,0,0,0,91,0,85
-Hyun,The Buns,2,0,0,0,4,1,0,56,0,85
-AJ,The Buns,5,7,13,2,10,0,0,56,29.02597403,27
-Snyder,The Buns,2,2,3,0,5,1,0,56,6.517857143,68
-Humphrey,The Buns,4,4,3,1,3,4,0,56,9.416666667,63
-Sturm,The Buns,4,8,14,5,8,2,1,56,39.46703297,17
-William Zhang,The Buns,6,5,7,1,11,2,1,56,17.14285714,48
-Tony Li,The Buns,2,0,0,0,2,0,0,56,0,85
-Jiwei Sun,The Buns,6,8,2,2,1,1,0,56,19.28571429,42
-Matthew Bledsoe,The Buns,3,1,0,1,2,2,0,56,1.464285714,83
-Frasier,The Buns,3,2,4,1,7,0,0,56,8.571428571,64
-Vivek,The Buns,5,3,8,2,5,4,0,56,15.32142857,54
-Andy,The Buns,0,0,0,0,0,0,0,56,0,85
-O'Neil,The Buns,6,13,0,6,12,4,0,56,19.6547619,40
-Q,The Buns,2,3,1,3,2,2,0,56,7,67
-Anatol,Lev Towers,6,5,3,1,9,2,0,45,10.92063492,60
-Alex Hem,Lev Towers,4,4,9,2,13,1,2,45,21.57638889,36
-Myles,Lev Towers,5,1,0,2,2,2,0,45,1.650793651,80
-Dennis Chira,Lev Towers,3,5,4,1,9,0,0,45,12.8,57
-Andrew Bergman,Lev Towers,1,2,5,0,1,0,1,45,19.05555556,44
-Alvin Leung,Lev Towers,3,5,4,1,10,1,0,45,12.38461538,58
-Bucky McFleur,Lev Towers,1,0,1,0,1,1,0,45,1.472222222,82
-Shuang Wu,Lev Towers,6,4,15,7,32,3,1,45,28.09401709,28
-Andrew Brennan,Lev Towers,2,8,2,3,3,0,0,45,22.22222222,35
-Allen Judd,Lev Towers,5,9,1,5,6,1,0,45,18.88888889,45
-Aaron Pelz,Lev Towers,0,0,0,0,0,0,0,45,0,85
-Nicholas Mahlangu,Lev Towers,0,0,0,0,0,0,0,45,0,85
-Allen He,Lev Towers,0,0,0,0,0,0,0,45,0,85
-Chris Keller,Lev Towers,3,2,2,2,8,2,0,45,5.811965812,71
-Brian,Motherhuckers ,6,7,1,4,1,0,0,66,29.21212121,26
-Jamie,Motherhuckers ,3,3,6,2,8,1,0,66,12.81818182,56
-Harry,Motherhuckers ,6,18,10,8,5,1,0,66,63.74242424,5
-Charles Wong,Motherhuckers ,3,6,8,6,6,1,0,66,27.01010101,30
-Aaron Kaufman,Motherhuckers ,5,7,15,3,11,2,1,66,33.58333333,22
-Ty Aderhold,Motherhuckers ,3,1,7,4,5,0,0,66,15.87878788,52
-David Zhang,Motherhuckers ,6,7,10,0,18,1,0,66,20.38528139,38
-Michael Bambrick,Motherhuckers ,1,0,0,1,1,0,0,66,0,85
-Calvin,Motherhuckers ,3,7,1,6,2,0,0,66,27.87878788,29
-Caleb,Motherhuckers ,0,0,0,0,0,0,0,66,0,85
-Josh Fries,Motherhuckers ,1,1,3,1,4,0,0,66,6.206060606,70
-Sam Gross,Motherhuckers ,0,0,0,0,0,0,0,66,0,85
-Jeff,Motherhuckers ,5,5,2,1,4,1,0,66,10.06060606,61
-Alex Graff,Motherhuckers ,5,4,2,1,3,4,0,66,7.909090909,66
+ID,Player,Team,Games,Goals,Assists,Ds,Turns,Drops,Point_Blocks,Team_Goals,BCS,BCS_Rank
+1,Jonah,Josh Fries Memorial,6,15,16,7,12,2,0,92,48.95780051,12
+2,Mark,Josh Fries Memorial,7,20,36,14,15,1,2,92,121.1980676,1
+3,Sam Dinnings,Josh Fries Memorial,6,18,20,10,17,4,0,92,58.20735786,9
+4,Carson Cook,Josh Fries Memorial,4,13,4,7,6,3,0,92,29.30936455,25
+5,Brian Zid,Josh Fries Memorial,5,8,12,4,5,1,1,92,39.67391304,16
+6,Chris Lee,Josh Fries Memorial,3,2,0,1,1,0,0,92,4.217391304,73
+7,Jackson Whang,Josh Fries Memorial,6,10,0,4,5,1,0,92,17.33695652,47
+8,Jack Goldfisher,Josh Fries Memorial,2,1,1,2,1,3,0,92,2.967391304,75
+9,Jason Joffe,Josh Fries Memorial,3,2,0,0,0,1,0,92,2.884057971,76
+10,Stefan Rajkovic,Josh Fries Memorial,2,0,0,2,0,2,0,92,0,85
+11,kunal,Josh Fries Memorial,6,3,1,0,1,2,0,92,5.101449275,72
+12,Alan Montelongo,Josh Fries Memorial,0,0,0,0,0,0,0,92,0,85
+13,Shai,Josh Fries Memorial,1,0,0,1,0,0,0,92,0,85
+14,Nick,No Flex Zone,5,2,4,1,11,2,1,59,8.516949153,65
+15,William Dean,No Flex Zone,5,14,13,7,11,0,3,59,63.07627119,7
+16,Misha,No Flex Zone,1,1,0,0,2,1,0,59,1.369491525,84
+17,Adam Gilfix,No Flex Zone,4,7,4,2,6,2,0,59,15.86440678,53
+18,Ben Banavige,No Flex Zone,4,8,5,2,9,6,1,59,18.15793529,46
+19,Sujay Tyle,No Flex Zone,1,0,1,0,2,0,0,59,1.502824859,81
+20,Charlie Wolock,No Flex Zone,6,8,15,3,10,0,1,59,39.44375963,18
+21,Ben Scharfstein,No Flex Zone,3,1,12,5,11,2,0,59,20.07838983,39
+22,Adam Ehrenberg,No Flex Zone,5,7,4,3,7,2,0,59,16.53107345,51
+23,Joe Hostyk,No Flex Zone,5,11,1,2,2,2,0,59,19.17675545,43
+24,Ajay nathan,No Flex Zone,2,0,0,0,0,2,1,59,0,85
+25,Evan Spretcher,No Flex Zone,0,0,0,0,0,0,0,59,0,85
+26,Nick Phillips,No Flex Zone,0,0,0,0,0,0,0,59,0,85
+27,Zack,Swai Guys,7,4,4,6,6,1,0,100,15.02222222,55
+28,Piers,Swai Guys,6,15,35,5,13,3,2,100,80,4
+29,Aron,Swai Guys,1,1,4,0,3,1,0,100,6.333333333,69
+30,Honald,Swai Guys,7,11,14,8,11,0,0,100,46.25,14
+31,Mike MacKenzie,Swai Guys,8,9,27,7,18,3,1,100,54,11
+32,Joey McMullen,Swai Guys,7,23,5,6,5,0,0,100,63.46666667,6
+33,John Rahill,Swai Guys,8,18,4,5,5,4,0,100,33.62857143,21
+34,Alexander Lin,Swai Guys,3,6,1,0,2,0,0,100,10.03333333,62
+35,Ken Weinstein,Swai Guys,0,0,0,0,0,0,0,100,0,85
+36,Caleb Irvine,Swai Guys,5,10,4,1,4,1,0,100,19.4,41
+37,Sebastian Wagner-Serena,Swai Guys,1,0,0,1,0,0,0,100,0,85
+38,Wes Mann,Swai Guys,1,1,1,2,8,0,0,100,2.866666667,77
+39,Alex Kahng,Swai Guys,1,2,1,0,3,0,0,100,4.05,74
+40,Jmac,Swai Guys,0,0,0,0,0,0,0,100,0,85
+41,Barton,Rooftop Swai Farm,0,0,0,0,0,0,0,100,0,85
+42,Chip,Rooftop Swai Farm,7,16,15,4,16,0,0,100,43.21764706,15
+43,Gabriel Karger,Rooftop Swai Farm,8,19,3,1,13,5,0,100,26.03333333,31
+44,Michael Casson,Rooftop Swai Farm,5,8,5,5,0,4,0,100,22.96666667,34
+45,Peter Chang,Rooftop Swai Farm,8,10,7,6,6,1,0,100,31.92222222,23
+46,Will Deuschle,Rooftop Swai Farm,5,9,5,3,7,1,0,100,21,37
+47,The GITT Net,Rooftop Swai Farm,0,0,0,2,0,0,0,100,0,85
+48,George Stubbs,Rooftop Swai Farm,3,5,14,3,6,0,0,100,31.75714286,24
+49,Max Hopkin,Rooftop Swai Farm,1,0,0,1,1,0,0,100,0,85
+50,Matt Thiman,Rooftop Swai Farm,8,14,21,5,20,6,1,100,46.98484848,13
+51,Toby Berkman,Rooftop Swai Farm,2,2,0,0,2,1,0,100,2.6,78
+52,Lord Nut,Rooftop Swai Farm,1,1,0,0,0,0,0,100,2.1,79
+53,John Stubbs,Rooftop Swai Farm,7,16,29,15,15,3,0,100,82.22727273,3
+54,Brawl,Brawl or Nothing,7,13,13,6,14,2,0,91,38.43609023,19
+55,Wynn,Brawl or Nothing,5,27,13,11,4,2,0,91,97.72893773,2
+56,Franks,Brawl or Nothing,6,12,17,11,7,3,1,91,61.18681319,8
+57,Chris Behrer,Brawl or Nothing,2,1,6,4,8,0,0,91,11.65811966,59
+58,Adrian,Brawl or Nothing,2,5,3,3,0,0,1,91,56.87912088,10
+59,Nixon,Brawl or Nothing,0,0,0,0,0,0,0,91,0,85
+60,Michael Wong,Brawl or Nothing,6,5,4,7,8,1,0,91,16.53446553,50
+61,Jake Newman,Brawl or Nothing,5,3,15,1,9,0,0,91,23.57802198,33
+62,Patrick Behrer,Brawl or Nothing,6,2,6,6,6,0,0,91,16.87912088,49
+63,Milan,Brawl or Nothing,6,12,7,6,8,3,3,91,37.55457875,20
+64,Nicholas Watters,Brawl or Nothing,4,11,6,3,7,1,0,91,25.66813187,32
+65,Brett Silverman,Brawl or Nothing,0,0,0,0,0,0,0,91,0,85
+66,Hyun,The Buns,2,0,0,0,4,1,0,56,0,85
+67,AJ,The Buns,5,7,13,2,10,0,0,56,29.02597403,27
+68,Snyder,The Buns,2,2,3,0,5,1,0,56,6.517857143,68
+69,Humphrey,The Buns,4,4,3,1,3,4,0,56,9.416666667,63
+70,Sturm,The Buns,4,8,14,5,8,2,1,56,39.46703297,17
+71,William Zhang,The Buns,6,5,7,1,11,2,1,56,17.14285714,48
+72,Tony Li,The Buns,2,0,0,0,2,0,0,56,0,85
+73,Jiwei Sun,The Buns,6,8,2,2,1,1,0,56,19.28571429,42
+74,Matthew Bledsoe,The Buns,3,1,0,1,2,2,0,56,1.464285714,83
+75,Frasier,The Buns,3,2,4,1,7,0,0,56,8.571428571,64
+76,Vivek,The Buns,5,3,8,2,5,4,0,56,15.32142857,54
+77,Andy,The Buns,0,0,0,0,0,0,0,56,0,85
+78,O'Neil,The Buns,6,13,0,6,12,4,0,56,19.6547619,40
+79,Q,The Buns,2,3,1,3,2,2,0,56,7,67
+80,Anatol,Lev Towers,6,5,3,1,9,2,0,45,10.92063492,60
+81,Alex Hem,Lev Towers,4,4,9,2,13,1,2,45,21.57638889,36
+82,Myles,Lev Towers,5,1,0,2,2,2,0,45,1.650793651,80
+83,Dennis Chira,Lev Towers,3,5,4,1,9,0,0,45,12.8,57
+84,Andrew Bergman,Lev Towers,1,2,5,0,1,0,1,45,19.05555556,44
+85,Alvin Leung,Lev Towers,3,5,4,1,10,1,0,45,12.38461538,58
+86,Bucky McFleur,Lev Towers,1,0,1,0,1,1,0,45,1.472222222,82
+87,Shuang Wu,Lev Towers,6,4,15,7,32,3,1,45,28.09401709,28
+88,Andrew Brennan,Lev Towers,2,8,2,3,3,0,0,45,22.22222222,35
+89,Allen Judd,Lev Towers,5,9,1,5,6,1,0,45,18.88888889,45
+90,Aaron Pelz,Lev Towers,0,0,0,0,0,0,0,45,0,85
+91,Nicholas Mahlangu,Lev Towers,0,0,0,0,0,0,0,45,0,85
+92,Allen He,Lev Towers,0,0,0,0,0,0,0,45,0,85
+93,Chris Keller,Lev Towers,3,2,2,2,8,2,0,45,5.811965812,71
+94,Brian,Motherhuckers ,6,7,1,4,1,0,0,66,29.21212121,26
+95,Jamie,Motherhuckers ,3,3,6,2,8,1,0,66,12.81818182,56
+96,Harry,Motherhuckers ,6,18,10,8,5,1,0,66,63.74242424,5
+97,Charles Wong,Motherhuckers ,3,6,8,6,6,1,0,66,27.01010101,30
+98,Aaron Kaufman,Motherhuckers ,5,7,15,3,11,2,1,66,33.58333333,22
+99,Ty Aderhold,Motherhuckers ,3,1,7,4,5,0,0,66,15.87878788,52
+100,David Zhang,Motherhuckers ,6,7,10,0,18,1,0,66,20.38528139,38
+101,Michael Bambrick,Motherhuckers ,1,0,0,1,1,0,0,66,0,85
+102,Calvin,Motherhuckers ,3,7,1,6,2,0,0,66,27.87878788,29
+103,Caleb,Motherhuckers ,0,0,0,0,0,0,0,66,0,85
+104,Josh Fries,Motherhuckers ,1,1,3,1,4,0,0,66,6.206060606,70
+105,Sam Gross,Motherhuckers ,0,0,0,0,0,0,0,66,0,85
+106,Jeff,Motherhuckers ,5,5,2,1,4,1,0,66,10.06060606,61
+107,Alex Graff,Motherhuckers ,5,4,2,1,3,4,0,66,7.909090909,66

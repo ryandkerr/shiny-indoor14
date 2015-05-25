@@ -39,9 +39,13 @@ shinyServer(function(input, output) {
   })
         
   player_tooltip <- function(x) {
-    #player <- selection[selection$Player == x$Player,]
-    #print(player)
-    paste0(x$Player)
+    if(is.null(x)) return(NULL)
+    if(is.null(x$ID)) return(NULL)    
+    
+    players <- isolate(selection())
+    selected_player <- players[players$ID == x$ID,]
+    paste0("<b>", selected_player$Player, "</b><br>",
+           "<b>Team: </b>", selected_player$Team, "<br>")
   }
   
   # creating ggvis scatterplot
@@ -49,7 +53,7 @@ shinyServer(function(input, output) {
     # scatterplot of total points/ast
     if(input$radio[1] == "totals") {
       selection %>%
-        ggvis(~Assists, ~Goals, key := ~Player, text:= ~Player) %>%
+        ggvis(~Assists, ~Goals, key := ~ID, text:= ~Player) %>%
         layer_text(angle := 20) %>%
         add_tooltip(player_tooltip, "hover")
     
