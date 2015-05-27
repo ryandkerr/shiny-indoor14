@@ -24,7 +24,7 @@ shinyUI(fluidPage(
       
       selectInput("team", label = "Team:",
                   choices = list("All Players", "Josh Fries Memorial", "No Flex Zone", "Swai Guys",
-                                 "Rooftop Swai Farm", "Brawl or Nothing", "The Buns", "Lev Towers", "MotherHuckers"),
+                                 "Rooftop Swai Farm", "Brawl or Nothing", "The Buns", "Lev Towers", "Motherhuckers "),
                   selected = "All Players")
     ),
     
